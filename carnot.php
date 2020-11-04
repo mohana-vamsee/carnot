@@ -7,12 +7,17 @@ $xml = new SimpleXMLElement('https://api.data.gov.in/resource/9ef84268-d588-465a
 
 <br><br>
 <div align="center">
-<strong  style="font-size: 150%; color:#E4308F;">Latest Grocery Price </strong>
+<strong  style="font-size: 150%; ">Latest Grocery Price </strong>
 </div>
 <br>
-<table align="center">
+<form align="center" style="color:#E4308F;">
+  Search by District: <input class="m-2" type="text" name="searchd" id="myInputd">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Search by Market: <input class="m-2" type="text" name="searchv" id="myInputv">
+  </form>
+<br>
+<table align="center" border="1px" >
   <thead style="background-color: powderblue;">
-    <tr>
+    <tr style="color: #E4308F;">
       <th>Timestamp</th>
       <th>State</th>
       <th>District</th>
